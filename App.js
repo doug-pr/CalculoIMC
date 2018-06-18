@@ -43,10 +43,12 @@ export default class App extends Component<Props> {
       s.resultadoText = "Magreza Leve"
 
     } else if(s.resultado < 25){
-      s.resultadoText = "Saudável"
+      //s.resultadoText = "Saudável"
+      s.resultadoText = "Adrielly está GORDA!"
 
     }  else if(s.resultado < 30){
-      s.resultadoText = "Sobrepeso"
+      //s.resultadoText = "Sobrepeso"
+      s.resultadoText = "Adrielly está muuuuuito GORDA!"
 
     }  else if(s.resultado < 35){
       s.resultadoText = "Obesidade Grau I"
